@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.grupa.vjeverica.artjourney" >
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ikona"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true">
+        <activity
+            android:name="com.grupa.vjeverica.artjourney.MainScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.grupa.vjeverica.artjourney.LearnScreen"
+            android:label="@string/title_activity_learn_screen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.grupa.vjeverica.artjourney.GalleryScreen"
+            android:label="@string/title_activity_gallery_screen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.grupa.vjeverica.artjourney.SliderGameActivity"
+            android:label="@string/title_activity_slider_game"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.grupa.vjeverica.artjourney.MastermindActivity"
+            android:label="@string/title_activity_mastermind"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.grupa.vjeverica.artjourney.showPictureAR"
+            android:label="@string/title_activity_show_picture_ar"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.grupa.vjeverica.artjourney.findDifferencesGame"
+            android:label="@string/title_activity_find_differences_game"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.grupa.vjeverica.artjourney.TheoryMenuActivity"
+            android:label="@string/title_activity_theory_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.grupa.vjeverica.artjourney.showTheory"
+            android:label="@string/title_activity_show_theory"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.grupa.vjeverica.artjourney.MemoryActivity"
+            android:label="@string/title_activity_memory_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.grupa.vjeverica.artjourney.ColorPickerActivity"
+            android:label="@string/title_activity_color_picker"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.grupa.vjeverica.artjourney.GridGameActivity"
+            android:label="@string/title_activity_grid_game"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.grupa.vjeverica.artjourney.renaissance_levels"
+            android:label="@string/title_activity_renaissance_levels"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.grupa.vjeverica.artjourney.baroque_levels"
+            android:label="@string/title_activity_baroque_levels"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.grupa.vjeverica.artjourney.impressionism_levels"
+            android:label="@string/title_activity_impressionism_levels"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.grupa.vjeverica.artjourney.expressionism_levels"
+            android:label="@string/title_activity_expressionism_levels"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.grupa.vjeverica.artjourney.cubism_levels"
+            android:label="@string/title_activity_cubism_levels"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.grupa.vjeverica.artjourney.modern_levels"
+            android:label="@string/title_activity_modern_levels"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

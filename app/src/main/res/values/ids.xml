@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="imagePart1" />
+    <item type="id" name="imagePart2" />
+    <item type="id" name="imagePart3" />
+    <item type="id" name="imagePart4" />
+    <item type="id" name="imagePart5" />
+    <item type="id" name="imagePart6" />
+    <item type="id" name="imagePart7" />
+    <item type="id" name="imagePart8" />
+    <item type="id" name="imagePart9" />
+    <item type="id" name="imagePart10" />
+    <item type="id" name="imagePart11" />
+    <item type="id" name="imagePart12" />
+    <item type="id" name="imagePart13" />
+    <item type="id" name="imagePart14" />
+    <item type="id" name="imagePart15" />
+    <item type="id" name="imagePart16" />
+    <item type="id" name="imagePart17" />
+    <item type="id" name="imagePart18" />
+    <item type="id" name="imagePart19" />
+    <item type="id" name="imagePart20" />
+    <item type="id" name="imagePart21" />
+    <item type="id" name="imagePart22" />
+    <item type="id" name="imagePart23" />
+    <item type="id" name="imagePart24" />
+    <item type="id" name="imagePart25" />
+
+    <item type="id" name="mastermindDot1" />
+    <item type="id" name="mastermindDot2" />
+    <item type="id" name="mastermindDot3" />
+    <item type="id" name="mastermindDot4" />
+    <item type="id" name="mastermindDot5" />
+    <item type="id" name="mastermindDot6" />
+
+</resources>
