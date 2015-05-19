@@ -200,7 +200,7 @@ public class impressionism_levels extends Activity {
                                     b.putFloat("miss3", 0.2263f);
                                     b.putFloat("miss4", 0.1924f);
                                     b.putFloat("miss5", 0.4708f);
-                                    b.putString("won","Congratulations! You have Unlocked:\nLibrary-Bal\nGallery-Bal");
+                                    b.putString("won","Congratulations! You have Unlocked:\nMuseum-Expressionism\nLibrary-Bal\nGallery-Bal");
                                     intent.putExtras(b);
                                     startActivityForResult(intent, 4);
                                 }

@@ -66,10 +66,10 @@ public class MastermindActivity extends Activity {
 
         ImageView info = (ImageView) findViewById(R.id.infoImage);
         ViewGroup.MarginLayoutParams params = (ViewGroup.MarginLayoutParams) info.getLayoutParams();
-        params.height = (int) (0.1 * height);
+        params.height = (int) (0.08 * height);
         params.width = params.height;
         info.setLayoutParams(params);
-        info.setAlpha(0.25f);
+        info.setAlpha(0.35f);
 
         info.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -88,7 +88,7 @@ public class MastermindActivity extends Activity {
 
         ImageView back = (ImageView) findViewById(R.id.backImage);
         params = (ViewGroup.MarginLayoutParams) back.getLayoutParams();
-        params.height = (int) (0.1 * height);
+        params.height = (int) (0.08 * height);
         params.width = params.height * 2;
         back.setLayoutParams(params);
         //back.setAlpha(0.25f);

@@ -12,8 +12,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/infoImage"
-        android:src="@drawable/info"
+
         android:paddingTop="25dp"
+        android:src="@drawable/info"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 

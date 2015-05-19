@@ -141,7 +141,7 @@ public class baroque_levels extends Activity {
                 @Override
                 public void onClick(View v) {
                     AlertDialog.Builder builder = new AlertDialog.Builder(baroque_levels.this);
-                    builder.setMessage("Thanak you my friend, I owe you one! Let me show you some of Rubens art, but first we need to remove the dust. Can you do it for me?")
+                    builder.setMessage("Thank you my friend, I owe you one! Let me show you some of Rubens art, but first we need to remove the dust. Can you do it for me?")
                             .setCancelable(false)
                             .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog, int id) {
@@ -413,7 +413,7 @@ public class baroque_levels extends Activity {
                                     b.putInt("memoryImage9", R.drawable.memory5);
                                     b.putInt("memoryImage10",R.drawable.memory6);
                                     b.putInt("memoryImage11", R.drawable.memory6);
-                                    b.putString("won","Congratulations! You have Unlocked:\nLibrary-Velázquez");
+                                    b.putString("won","Congratulations! You have Unlocked:\nMuseum-Impressionism\nLibrary-Velázquez");
                                     intent.putExtras(b);
                                     startActivityForResult(intent, 9);
                                 }

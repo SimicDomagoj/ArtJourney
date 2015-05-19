@@ -66,7 +66,7 @@ public class expressionism_levels extends Activity {
                             public void onClick(DialogInterface dialog, int id) {
                                 Intent intent = new Intent(expressionism_levels.this, GridGameActivity.class);
                                 Bundle b = new Bundle();
-                                b.putInt("size",3);
+                                b.putInt("size",4);
                                 b.putInt("res", R.drawable.scream_1);
                                 b.putString("won","Congratulations! You have Unlocked:\nLibrary-Expressionism overview\nLibrary-Scream\nGallery-Scream");
                                 intent.putExtras(b);
@@ -175,7 +175,7 @@ public class expressionism_levels extends Activity {
                 @Override
                 public void onClick(View v) {
                     AlertDialog.Builder builder = new AlertDialog.Builder(expressionism_levels.this);
-                    builder.setMessage("As you walk around you find another masterpiece in pieces. Looks like guard was sleeping last night!")
+                    builder.setMessage("A lot of strange figures on this image! Can you connect them somehow?")
                             .setCancelable(false)
                             .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog, int id) {
@@ -278,7 +278,7 @@ public class expressionism_levels extends Activity {
                                     Intent intent = new Intent(expressionism_levels.this, SliderGameActivity.class);
                                     Bundle b = new Bundle();
                                     b.putInt("size",4);
-                                    b.putInt("res", R.drawable.starry_night_1);
+                                    b.putInt("res", R.drawable.red_horses_1);
                                     b.putString("won","Congratulations! You have Unlocked:\nLibrary-Red Horses\nLibrary-Franz Marc");
                                     intent.putExtras(b);
                                     startActivityForResult(intent, 6);
@@ -408,7 +408,7 @@ public class expressionism_levels extends Activity {
                                     b.putInt("memoryImage9", R.drawable.primitivism2);
                                     b.putInt("memoryImage10",R.drawable.sound);
                                     b.putInt("memoryImage11", R.drawable.sound2);
-                                    b.putString("won","Congratulations! You have Unlocked:\nLibrary-Paul Klee");
+                                    b.putString("won","Congratulations! You have Unlocked:\nMuseum-Cubism\nLibrary-Paul Klee");
                                     intent.putExtras(b);
                                     startActivityForResult(intent, 9);
                                 }

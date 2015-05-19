@@ -391,7 +391,7 @@ public class cubism_levels extends Activity {
                                     Intent intent = new Intent(cubism_levels.this, ColorPickerActivity.class);
                                     Bundle b = new Bundle();
                                     b.putInt("res", R.drawable.breakfast);
-                                    b.putString("won","Congratulations! You have Unlocked:\nLibrary-Breakfast\nLibrary-Juan Gris");
+                                    b.putString("won","Congratulations! You have Unlocked:\nMuseum-Modern Art\nLibrary-Breakfast\nLibrary-Juan Gris");
                                     intent.putExtras(b);
                                     startActivityForResult(intent, 9);
                                 }

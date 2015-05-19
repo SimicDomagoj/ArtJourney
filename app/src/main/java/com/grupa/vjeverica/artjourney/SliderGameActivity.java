@@ -49,7 +49,7 @@ public class
         params.height = (int) (0.1 * height);
         params.width = params.height;
         info.setLayoutParams(params);
-        info.setAlpha(0.25f);
+        info.setAlpha(0.35f);
 
         info.setOnClickListener(new View.OnClickListener() {
             @Override

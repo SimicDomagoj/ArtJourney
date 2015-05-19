@@ -124,8 +124,8 @@ public class findDifferencesGame extends Activity {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
                 for(int i = 0; i < Coord.size(); i++) {
-                    if(((int)event.getX()> Coord.get(i).get(0) -15 && (int)event.getX()<Coord.get(i).get(0)+15)
-                            && ((int)event.getY()>Coord.get(i).get(1)-15 && (int)event.getY()<Coord.get(i).get(1)+15)){
+                    if(((int)event.getX()> Coord.get(i).get(0) -20 && (int)event.getX()<Coord.get(i).get(0)+20)
+                            && ((int)event.getY()>Coord.get(i).get(1)-20 && (int)event.getY()<Coord.get(i).get(1)+20)){
                         Coord.remove(i);
                         tv.setText("Found "+ String.valueOf(brOfMistakes-Coord.size()) +" of " + String.valueOf(brOfMistakes));
                         if(Coord.isEmpty()){

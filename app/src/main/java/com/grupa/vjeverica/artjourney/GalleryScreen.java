@@ -42,7 +42,7 @@ public class GalleryScreen extends ActionBarActivity {
 
         if(prefs.getBoolean("gallery_first_use",true)){
             AlertDialog.Builder builder = new AlertDialog.Builder(GalleryScreen.this);
-            builder.setMessage("This is the Gallery. Using augmented reality you can view an image in  your home. Just print the ar_marker.png from this URL:https://github.com/SimicDomagoj/ArtJourney, click the image, point it to the marker and enjoy!")
+            builder.setMessage("This is the Gallery. Using augmented reality you can view an image in  your home. Just print the ar_marker.png from this URL:\nhttps://github.com/SimicDomagoj/ArtJourney.\nPreferably 20 * 20cm big. Click the image, point camera to the marker and enjoy!")
                     .setCancelable(false)
                     .setPositiveButton("OK", new DialogInterface.OnClickListener() {
                         public void onClick(DialogInterface dialog, int id) {
@@ -248,6 +248,18 @@ public class GalleryScreen extends ActionBarActivity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
+        if(id==R.id.action_info){
+            AlertDialog.Builder builder = new AlertDialog.Builder(GalleryScreen.this);
+            builder.setMessage("This is the Gallery. Using augmented reality you can view an image in  your home. Just print the ar_marker.png from this URL:\nhttps://github.com/SimicDomagoj/ArtJourney.\nPreferably 20 * 20cm big. Click the image, point camera to the marker and enjoy!")
+                    .setCancelable(false)
+                    .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            dialog.cancel();
+                        }
+                    });
+            AlertDialog alert = builder.create();
+            alert.show();
+        }
         if (id==android.R.id.home) {
             finish();
         }

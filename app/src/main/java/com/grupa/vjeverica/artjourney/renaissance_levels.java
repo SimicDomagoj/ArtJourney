@@ -279,7 +279,7 @@ public class renaissance_levels extends Activity {
                                     Intent intent = new Intent(renaissance_levels.this, findDifferencesGame.class);
                                     Bundle b = new Bundle();
                                     b.putInt("firstImage", R.drawable.school_athens_diff_right);
-                                    b.putInt("secondImage", R.drawable.school_athens_diff_right);
+                                    b.putInt("secondImage", R.drawable.school_athens_diff_right2);
                                     b.putInt("misstakes", 5);
                                     b.putFloat("miss1", 0.2515f);
                                     b.putFloat("miss2", 0.4582f);
@@ -404,7 +404,7 @@ public class renaissance_levels extends Activity {
                                     Intent intent = new Intent(renaissance_levels.this, MastermindActivity.class);
                                     Bundle b = new Bundle();
                                     b.putInt("dots",4);
-                                    b.putString("won","Congratulations! You have Unlocked:\nLibrary-Birth of Venus\nGallery-Birth of Venus");
+                                    b.putString("won","Congratulations! You have Unlocked:\nMuseum-Baroque\nLibrary-Birth of Venus\nGallery-Birth of Venus");
                                     intent.putExtras(b);
                                     startActivityForResult(intent, 9);
                                 }
